@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from '../App';
+import { MainStackParamList } from '../App';
 
-type ProfileScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
+type ProfileScreenNavigationProp = StackNavigationProp<MainStackParamList, 'Home'>;
 
 type Props = {
   navigation: ProfileScreenNavigationProp;
